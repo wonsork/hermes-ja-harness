@@ -9,17 +9,18 @@ requirements:
   commands: [git, python, uv]
 skills:
   - autonomous-ai-agents/hermes-agent
-  - publishing/crayon-ja-harness
-  - publishing/ebook-publishing-pipeline
-  - creative/cover-chapter-art-generation
+  - ebook-publishing-pipeline
   - naver-blog-automation
+  - yes24-registration
+  - creative/cover-chapter-art-generation
+  - publishing/crayon-ja-harness
   - publishing/aladin-ebook-registration
-  - publishing/yes24-registration
   - publishing/google-books-registration
   - publishing/nl-seoji-ops
   - publishing/seoji-isbn-workflow
-  - ebook-publishing-automation
+  - publishing/ebook-publishing-automation
   - publishing/ebook-channel-registration-sync
+  - publishing/yes24-http-registration
 config:
   model:
     default: deepseek-ai/deepseek-v4.1-flash
