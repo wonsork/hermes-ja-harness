@@ -1,0 +1,28 @@
+name: ja-harness
+version: "2026-10-29"
+description: "일문학부(일본문학) 하네스 — 아리시마/시마자키 등 일본 고전 번역·EPUB 제작·출판 자동화 프로파일"
+source:
+  type: git
+  url: "https://github.com/wonsork/hermes-ja-harness"
+requirements:
+  python: ">=3.10"
+  commands: [git, python, uv]
+skills:
+  - autonomous-ai-agents/hermes-agent
+  - publishing/crayon-ja-harness
+  - publishing/ebook-publishing-pipeline
+  - creative/cover-chapter-art-generation
+  - naver-blog-automation
+  - publishing/aladin-ebook-registration
+  - publishing/yes24-registration
+  - publishing/google-books-registration
+  - publishing/nl-seoji-ops
+  - publishing/seoji-isbn-workflow
+  - ebook-publishing-automation
+  - publishing/ebook-channel-registration-sync
+config:
+  model:
+    default: deepseek-ai/deepseek-v4.1-flash
+    provider: nvidia
+    base_url: https://integrate.api.nvidia.com/v1
+    aux_model_1: nvidia/nemotron-3-ultra-550b-a55b
